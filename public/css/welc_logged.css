@@ -1,0 +1,127 @@
+html, body {
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+#home {
+    position: absolute;
+    left: 275px;
+}
+
+.navbar-default {
+    position: relative;
+    right: 0;
+    left: 0; 
+    background-color: #E7E7E7;
+    text-decoration: none;
+    min-height: 50px;
+    margin-bottom: 22px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+}
+
+
+#container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+#container a {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    float: right;
+    overflow: hidden;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #777;
+    padding: 14px 16px;
+    position: absolute;
+    right: 275px;
+}
+
+#row {
+    color: #777;
+    position: absolute;
+    right: 280px;
+    top: 13px;
+    transform: rotate(-45deg);
+}
+
+#container:hover, #dropdown:hover {
+    background-color: #eee;
+}
+ 
+.dropdown-content {
+    display: none;
+    background-color: #E7E7E7;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #777;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #E7E7E7;
+    position: absolute;
+    right: 275px;
+    top: 46px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a:hover {
+    background-color: #eee;
+}
+
+.show {
+    display: block;
+}
+
+#btn_enter{
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    width: 305px;
+    height: 64px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: solid 1px #0076a3;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background-color: transparent;
+    background-image: url('../image/logoagid.png');
+}
+
+#btn_enter:hover{
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+#subtext{
+    font-size: 20px;
+}

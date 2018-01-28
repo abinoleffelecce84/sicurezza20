@@ -1,0 +1,273 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 450px;
+}
+
+#password {
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 505px;
+}
+
+#agidlogo {
+    position: absolute;
+    top: 376px;
+    left: 70px;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: #B8B8B8;
+    padding-right: 20px;
+    padding-bottom: 107px;
+}
+
+#pvtlogo {
+    position: absolute;
+    top: 520px;
+    left: 59px;
+}
+
+#home {
+    position: absolute;
+    left: 275px;
+}
+
+.form-group {
+    position: absolute;
+    top: 570px;
+    left: 650px;
+}
+
+.content_form {
+    position: absolute;
+    top: -30px;
+    left: 230px;
+}
+
+.content {
+    position: absolute;
+    left: 225px;
+}
+
+.help-block {
+    position: absolute;
+    left: 180px;
+    top: 25px;
+}
+
+.navbar-default {
+    position: fixed;
+    right: 0;
+    left: 0; 
+    background-color: #E7E7E7;
+    border-color: #d3e0e9;
+    text-decoration: none;
+    min-height: 50px;
+    margin-bottom: 22px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+.container a {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    float: right;
+    overflow: hidden;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #777;
+    padding: 14px 16px;
+    background-color: inherit;
+    position: absolute;
+    right: 275px;
+}
+
+.row {
+    color: #777;
+    position: absolute;
+    right: 280px;
+    top: 13px;
+    transform: rotate(-45deg);
+}
+
+.container a:hover, .dropdown:hover {
+    background-color: #eee;
+}
+ 
+.dropdown-content {
+    display: none;
+    background-color: #E7E7E7;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #777;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #E7E7E7;
+    position: absolute;
+    right: 275px;
+    top: 46px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a:hover {
+    background-color: #eee;
+}
+
+.show {
+    display: block;
+}
+
+#buttonsubmit{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 5px 15px;
+    border: solid 1px #36956B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#53E881), to(#329268));
+    background: -webkit-linear-gradient(top,  #53E881,  #329268);
+    background: -moz-linear-gradient(top,  #53E881,  #329268);
+    background: -ms-linear-gradient(top,  #53E881,  #329268);
+    background: -o-linear-gradient(top,  #53E881,  #329268);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+#buttonsubmit:hover{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 5px 15px;
+    border: solid 1px #36956B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5AFB8C), to(#40B381));
+    background: -webkit-linear-gradient(top,  #5AFB8C,  #40B381);
+    background: -moz-linear-gradient(top,  #5AFB8C,  #40B381);
+    background: -ms-linear-gradient(top,  #5AFB8C,  #40B381);
+    background: -o-linear-gradient(top,  #5AFB8C,  #40B381);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+#buttonsubmit:active{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 5px 15px;
+    border: solid 1px #36956B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#40B381), to(#5AFB8C));
+    background: -webkit-linear-gradient(top,  #40B381,  #5AFB8C);
+    background: -moz-linear-gradient(top,  #40B381,  #5AFB8C);
+    background: -ms-linear-gradient(top,  #40B381,  #5AFB8C);
+    background: -o-linear-gradient(top,  #40B381, #5AFB8C);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1400px) {
+
+    #agidlogo {
+        position: absolute;
+        top: 235px;
+        left: 41px;
+        border-right: 1px;
+        border-right-style: solid;
+        border-right-color: #B8B8B8;
+        padding-right: 20px;
+        padding-bottom: 107px;
+    }
+
+    #pvtlogo {
+        position: absolute;
+        top: 390px;
+        left: 30px;
+    }
+
+    #email {
+        font-size: 20px;
+        position: absolute;
+        left: 605px;
+        top: 310px;
+    }
+
+    #password {
+        font-size: 20px;
+        position: absolute;
+        left: 605px;
+        top: 365px;
+    }
+
+    .form-group {
+        position: absolute;
+        left: 605px;
+        top: 430px;
+    }
+
+}
